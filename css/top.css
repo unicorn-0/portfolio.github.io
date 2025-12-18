@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(34, 74%, 84%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  transition: opacity 0.6s ease, visibility 0.6s;
+}
+header.active_header {
+  opacity: 0;
+  visibility: hidden;
+}
+header h1 {
+  font-family: "Abril Fatface", serif;
+  width: 70%;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: rgb(220, 173, 115);
+}
+
+main {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  padding-top: 200px;
+}
+main .first_work {
+  font-family: "Abril Fatface", serif;
+  position: absolute;
+  left: -50%;
+  top: 250px;
+  width: 50%;
+  background-color: hsl(34, 74%, 84%);
+  text-align: center;
+  opacity: 0;
+  transition: 0.6s ease, visibility 0.6s;
+}
+main .first_work.active_first_work {
+  left: 0%;
+  opacity: 1;
+}
+main .first_work h1 {
+  color: rgb(220, 173, 115);
+  font-size: 30px;
+}
+main .first_work p {
+  font-size: 20px;
+}
+main .second_work {
+  font-family: "Abril Fatface", serif;
+  position: absolute;
+  right: -50%;
+  top: 500px;
+  width: 50%;
+  background-color: hsl(34, 74%, 84%);
+  text-align: center;
+  opacity: 0;
+  transition: 0.6s ease, visibility 0.6s;
+}
+main .second_work.active_second_work {
+  right: 0%;
+  opacity: 1;
+}
+main .second_work h1 {
+  color: rgb(220, 173, 115);
+  font-size: 30px;
+}
+main .second_work p {
+  font-size: 20px;
+}
+main .third_work {
+  font-family: "Abril Fatface", serif;
+  position: absolute;
+  left: -50%;
+  top: 700px;
+  width: 50%;
+  background-color: hsl(34, 74%, 84%);
+  text-align: center;
+  opacity: 0;
+  transition: 0.6s ease, visibility 0.6s;
+}
+main .third_work.active_third_work {
+  left: 0%;
+  opacity: 1;
+}
+main .third_work h1 {
+  color: rgb(220, 173, 115);
+  font-size: 30px;
+}
+main .third_work p {
+  font-size: 20px;
+}
+main .other_work {
+  font-family: "Abril Fatface", serif;
+  position: absolute;
+  right: -50%;
+  top: 900px;
+  width: 50%;
+  background-color: hsl(34, 74%, 84%);
+  text-align: center;
+  opacity: 0;
+  transition: 0.6s ease, visibility 0.6s;
+}
+main .other_work.active_other_work {
+  right: 0%;
+  opacity: 1;
+}
+main .other_work h1 {
+  color: rgb(220, 173, 115);
+  font-size: 30px;
+}
+main .other_work p {
+  font-size: 20px;
+}/*# sourceMappingURL=top.css.map */
